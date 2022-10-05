@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+
+
+.centralizador {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.titulo-h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 25px;
+}
+.icone{
+    color: aliceblue;
+    
+}
