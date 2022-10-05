@@ -1,0 +1,68 @@
+#projetos {
+    background-color: #bdbbbb;
+}
+.projetos{
+    padding-top: 93px;
+
+}
+
+.project{
+    text-align: center;
+}
+
+
+
+.github-link {
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 93px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.pro {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 15px;
+    transition: ease-in-out 0.3s;
+}
+
+.pro div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+
+.pro:hover {
+    letter-spacing: 5px;
+}
+
+.pro div {
+    background-color: #1d1d1d;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+.pro-escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+.projetos-items {
+    display:  flex;
+    
+    
+}

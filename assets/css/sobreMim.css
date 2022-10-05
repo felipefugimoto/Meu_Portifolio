@@ -1,0 +1,45 @@
+#sobreMim {
+    width: 100%;
+    background-color: #303030;
+    color: white;
+}
+
+.ajustador-2 {
+    padding: 144px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 67px;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+.pessoal{
+    width: 323px;
+    height: 368px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+.pessoal:hover {
+    transform: scale(1.05);
+}
+.desenho-bg{
+    width: 323px;
+    height: 368px;
+    
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sobre-mim p{
+    text-indent: 30px;
+    font-size: 20px;
+    max-width: 609.25px;
+    color: white;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,271 @@
+    <div class=" menu">
+        <input type="checkbox" class="close-menu" id="close-menu" aria-label="close-menu" role="button">
+        <label for="close-menu" class="close-menu-label"
+        title="close menu"></label>
+        <div class="barra">
+            <div class="meu-centro centralizador">
+                <div class="logo esquerda">
+                    <a href="index.html"> <img class="img-logo'" src="assets/img/logo.png" alt="Logo"></a>
+                </div>
+            </div>
+        </div>
+        <nav class="direita">
+            <ul class="main" onclick="getElementById('close-menu').checked=false">
+                <li class="nav-bar-item"><a href="#inicio">Inicio</a></li>
+                <li class="nav-bar-item"><a href="#sobreMim">Sobre mim</a></li>
+                <li class="nav-bar-item"><a href="#projetos">Projetos</a></li>
+                <li class="nav-bar-item"><a href="#habilidades">Habilidades</a></li>
+
+            </ul>
+        </nav>
+
+    </div>  
+  <!--Sobre mim-->
+    <section id="sobreMim">
+        <div class="centralizador">
+            <div class="ajustador-2">
+                <div class="pessoal"> <img src="assets/img/mim2.jpeg" alt="" class="desenho-bg"></div>
+                <div class="sobre-mim">
+                    <h2 class="titulo-h2">Sobre Mim</h2>
+                    <p>
+                        Meu nome é Felipe Fugimoto sou apaixonado por tecnologia. Primeiro contato na área com
+                        programação foi nos cursos do Senai em 2010, depois da li me apaixonei.
+                    </p>
+                    <p>
+                        Meu primeiro trabalho na área foi como estagiário, fazendo manutenção e suporte de computadores.
+                        Meu contato com o desenvolvimento web foi no meu terceiro estágio onde trabalhei como FrontEnd e
+                        BackEnd. Em meu tcc trabalhei com React Native na manipulação de mapas para GPs.
+                    </p>
+                    <p>
+                        Hoje já entendo tecnologias como Bootstrap(básico) , Mysql(médio), Banco de dado Oracle
+                        (médio),WordPress (médio), PHP (médio), CSS(médio), Javascript (Intermediário), node Js(básico),
+                        HTML(médio) e React Native(basico).
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--Sobre mim-->
+
+    <!--Projetos-->
+    <section id="projetos">
+        <div class="centralizador projetos">
+            <h2 class="project titulo-h2">Projetos</h2>
+            <div class="projetos-items">
+                <div class="pro">
+                    <div class="breve">
+                        <p>EM BREVE</p>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="breve">
+                        <p>EM BREVE</p>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="breve">
+                        <p>EM BREVE</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--Botao ver mais-->
+            <div class="github-link">
+
+                <a href="https://github.com/felipefugimoto" target="_blank">Repositório no github</a>
+            </div>
+
+        </div>
+    </section>
+    <!--Projetos-->
+
+    <!--Habilidades-->
+    <section id="habilidades">
+        <div class="centralizador">
+            <div class="habilidades-pd">
+               
+                <h2 class="titulo-h2 habilidade-h2" >Habilidades</h2>
+                <div class="skills-descricao">
+                    <!--Iconces dos desenvolvimento-->
+                    <div class="containier-skills">
+
+
+                        <div class="skill-box skill1">
+                            <img class="icon-habilidades " src="assets/icon/html-5-64 -PB2.png" alt="html">
+                        </div>
+                        <div class="skill-box skill2">
+                            <img class="icon-habilidades " src="assets/icon/css3-64 PB2.png" alt="CSS">
+                        </div>
+
+                        <div class="skill-box skill3">
+                            <img class="icon-habilidades " src="assets/icon/js-5-64 -PB.png" alt="JS">
+                        </div>
+
+                        <div class="skill-box skill4">
+                            <img class="icon-habilidades " src="assets/icon/nativo-de-reagir-64- PB.png" alt="CSS">
+                        </div>
+
+                        <div class="skill-box skill5">
+                            <img class="icon-habilidades " src="assets/icon/php-64 Pb.png" alt="php">
+                        </div>
+
+                        <div class="skill-box skil6">
+                            <img class="icon-habilidades " src="assets/icon/mysql-64-PB3.png" alt="php">
+                        </div>
+
+                        <div class="skill-box skil7">
+                            <img class="icon-habilidades " src="assets/icon/wordpress-64-PB3.png" alt="php">
+                        </div>
+
+                        <div class="skill-box skil8">
+                            <img class="icon-habilidades " src="assets/icon/github-PB.png" alt="php">
+                        </div>
+
+                        <div class="skill-box skil9">
+                            <img class="icon-habilidades " src="assets/icon/git-70-PB.png" alt="php">
+                        </div>
+
+
+
+                    </div>
+                    <!--Iconces dos desenvolvimento-->
+
+                    <!--Descricao do texto-->
+                    <div class="container-descricao">
+                        <p class="text-descricao">
+                            /*Passe por cima para alguma habilidade para ler a descrição*/
+                        </p>
+                    </div>
+                    <!--Descricao do texto-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Habilidades-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="contato-creditos">
+                <p>E-mail para contanto: felipe.fugimoto3@gmail.com</p>
+                <p>WhatsAp: <a href="https://wa.me/5547996403005">(47)9 9640-3005</a></p>
+                <p>Feito por Felipe Fugimoto</p>
+            </div>
+            <div class="icones-footer">
+                <div class="links links1">
+                    <a class="transporter" href="#" target="_blank"><img src="assets/icon/icons8-github-64-W.png"
+                            alt="git"></a>
+                </div>
+                <div class="links links2">
+                    <a class="transporter" href="#" target="_blank"><img src="assets/icon/linkdin-w.png" alt="git"></a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+@media (max-width:950px) {
+/*---MENU---*/
+.esquerda, .direita {
+    margin: 0;
+}
+
+.logo {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.barra{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-centro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centralizador{
+    margin: 0;
+}
+.barra-conteiner {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.barra-conteiner .logo{
+    width: 100%
+}
+
+.direita ul {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.direita ul a {
+    font-size: 35px;
+}
+
+/* configurando menu mobile */
+.barra {
+    display: block;
+    position: fixed;
+    top: -100vh;
+    transition: ease 0.3s;
+}
+
+.close-menu-label::after {
+    content:'≡';
+    position: fixed;
+    z-index: 2;
+    top: 2rem;
+    right: 2rem;
+    background: #792e33;
+    color: white;
+    font-size: 3rem;
+    line-height:3rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* ✕ */
+.close-menu:checked~.barra {
+    top: 0;
+}
+
+.close-menu:checked~.close-menu-label::after {
+    display: block;
+    content: '✕';
+}
+
+.barra .barra-conteiner ul li a{
+    font-size: 25px;
+}
+
+.barra {
+    background: rgba(0, 0, 0, 0.527);
+}
+/*---Fim Menu---*/
+}
+
+
+
+
+https://wa.me/5547996403005
