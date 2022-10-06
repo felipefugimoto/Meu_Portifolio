@@ -1,3 +1,4 @@
+
 #inicio {
     background: linear-gradient(63.13deg, #000000 51.04%, #696969 51.05%);
     backdrop-filter: blur(10px);
@@ -105,4 +106,5 @@
     position:relative;
     width: 900px;
     animation: desenhoAnimacao 2.1s infinite alternate-reverse linear;
+
 }

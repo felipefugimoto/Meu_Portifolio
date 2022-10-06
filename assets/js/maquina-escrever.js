@@ -1,3 +1,4 @@
+
 function typeWrite(elemento){
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = ' ';
@@ -12,5 +13,8 @@ function typeWrite(elemento){
   });
 }
 
+
+
 const title =document.querySelector('.meuNome');
+
 typeWrite(title);

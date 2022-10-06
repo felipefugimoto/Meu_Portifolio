@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quando&display=swap');
 
@@ -69,7 +70,7 @@
 
 
 .links3{
-    background-image: url(../icon/whatsapp-svgrepo-com.svg);
+    background-image: url(../icon/icons8-whatsapp-64.png);
 } 
 .transporter {
     transition: ease-in-out 0.3s;
@@ -77,4 +78,5 @@
 
 .transporter:hover {
     opacity: 0;
+
 }

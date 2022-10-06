@@ -1,3 +1,4 @@
+
 const skills = document.querySelectorAll(".skill-box");
 const descricao = document.querySelector(".text-descricao");
 const sobreSkill = [
