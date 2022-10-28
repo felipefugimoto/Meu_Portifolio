@@ -204,6 +204,7 @@
         text-align: center;
         border-radius: 5px;
         cursor: pointer;
+        right: 20%;
     }
     /* ✕ */
     .close-menu:checked~.barra {
