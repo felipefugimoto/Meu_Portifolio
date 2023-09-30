@@ -50,12 +50,16 @@
 }
 
 .pro div {
-    background-color: #1d1d1d;
+   
     width: 1000px;
     text-align: center;
     padding: 5% 0;
-    transform: rotate(-50deg);
-}
+    align-items:center ;
+    }
+
+    .pro div img{
+        margin: 0 auto;
+    }
 
 .pro-escondido {
     opacity: 0;
@@ -63,8 +67,7 @@
     transition: 1000ms;
 }
 .projetos-items {
-    display:  flex;
-    
-    
+    display:  flex;  
+    margin: 1em 0
 
 }
