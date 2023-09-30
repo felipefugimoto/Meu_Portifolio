@@ -130,7 +130,7 @@
 }
 /*Fim Tablete*/
 /*Smartphone com tela maxima de 950 px*/
-@media screen and (max-width:450px) {
+@media screen and (max-width:370px) {
     body{
         background-color: rgb(255, 0, 191);
     }
