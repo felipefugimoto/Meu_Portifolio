@@ -2,6 +2,7 @@
 @media(max-width:1200px){
     /*INICIO*/
     #inicio{
+    width: 100%;;
     background: #000000;
     height: auto;
     }
