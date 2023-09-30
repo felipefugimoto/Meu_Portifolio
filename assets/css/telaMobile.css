@@ -1,11 +1,9 @@
 /*Tablete tela  maxima de 1200px*/
-@media screen and (max-width:1200px){
- 
+@media(max-width:1200px){
     /*INICIO*/
     #inicio{
     background: #000000;
     height: auto;
-    width: 100%!important;
     }
 
     .ajustador{
@@ -128,9 +126,7 @@
 }
 /*Fim Tablete*/
 /*Smartphone com tela maxima de 950 px*/
-@media screen and (max-width:950px) {
-
-
+@media (max-width:950px) {
   /*MENU*/
     .esquerda, .direita {
         margin: 0;
