@@ -130,15 +130,16 @@
 }
 /*Fim Tablete*/
 /*Smartphone com tela maxima de 950 px*/
-@media screen and (max-width:370px) {
+@media screen and (max-width:950px) {
     body{
         background-color: rgb(255, 0, 191);
+        width: 100%!important;
     }
     /*INICIO*/
     #inicio{
     background: #ebd405;
     height: auto;
-    width: 100%;
+    
     }
   /*MENU*/
     .esquerda, .direita {
