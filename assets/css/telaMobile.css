@@ -1,9 +1,13 @@
 /*Tablete tela  maxima de 1200px*/
-@media(max-width:1200px){
+@media screen and (max-width:1200px){
+    body{
+        background-color: blue;
+    }
     /*INICIO*/
     #inicio{
-    background: #000000;
+    background: #6ceb05;
     height: auto;
+    width: 100%;
     }
 
     .ajustador{
@@ -126,7 +130,16 @@
 }
 /*Fim Tablete*/
 /*Smartphone com tela maxima de 950 px*/
-@media (max-width:950px) {
+@media (max-width:750px) {
+    body{
+        background-color: rgb(255, 0, 191);
+    }
+    /*INICIO*/
+    #inicio{
+    background: #ebd405;
+    height: auto;
+    width: 100%;
+    }
   /*MENU*/
     .esquerda, .direita {
         margin: 0;
